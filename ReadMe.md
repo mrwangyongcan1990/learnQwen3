@@ -1,6 +1,6 @@
 learning Qwen3 
 
-This repository contains experiments on training, hyperparameter tuning, and evaluation of Qwen3 for real-time object detection. The goal is to study model performance across different configurations and datasets, with a focus on reproducibility and systematic analysis.
+This repository contains experiments on training, hyperparameter tuning, and evaluation of Qwen3. The goal is to study train, fine-tuning and evaluate Qwen3 models.
 
 📂 Project Structure
 learnQwen3/
