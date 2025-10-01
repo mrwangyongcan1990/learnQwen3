@@ -1,0 +1,73 @@
+nohup: ignoring input
+INFO:ModelEvaluation:🚀 加载基础模型...
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.47it/s]
+INFO:ModelEvaluation:🔗 加载微调适配器...
+/home/user/lib64/python3.9/site-packages/networkx/utils/backends.py:135: RuntimeWarning: networkx backend defined more than once: nx-loopback
+  backends.update(_get_backends("networkx.backends"))
+INFO:ModelEvaluation:📝 加载tokenizer...
+INFO:ModelEvaluation:✅ 模型加载完成，设备: cuda:0
+INFO:ModelEvaluation:🧪 开始基础问题测试...
+INFO:ModelEvaluation:
+🔸 测试 1:
+INFO:ModelEvaluation:   问题: 解释机器学习的基本概念
+INFO:ModelEvaluation:   回答: <think>
+嗯，用户让我解释机器学习的基本概念。首先，我得确定用户是什么水平的，可能是刚开始学习的人，或者是有一定基础但想回顾的。不管怎样，我需要确保解释清晰易懂，避免专业术语过多，但又要准确。
+...
+INFO:ModelEvaluation:   长度: 173 字符
+INFO:ModelEvaluation:
+🔸 测试 2:
+INFO:ModelEvaluation:   问题: 写一个Python函数计算斐波那契数列
+INFO:ModelEvaluation:   回答: <think>
+好的，我现在需要写一个Python函数来计算斐波那契数列。让我先回忆一下斐波那契数列的定义。斐波那契数列是每个数字是前两个数字之和的序列，通常从0和1开始。比如，0, 1, 1, 2,...
+INFO:ModelEvaluation:   长度: 144 字符
+INFO:ModelEvaluation:
+🔸 测试 3:
+INFO:ModelEvaluation:   问题: 什么是深度学习？
+INFO:ModelEvaluation:   回答: <think>
+嗯，用户问的是“什么是深度学习？”，我需要先理解这个问题。深度学习是机器学习的一个分支，对吧？不过得确保自己回答准确，不能有错误。
+
+首先，得从基本概念开始。深度学习使用深层神经网络，...
+INFO:ModelEvaluation:   长度: 171 字符
+INFO:ModelEvaluation:
+🔸 测试 4:
+INFO:ModelEvaluation:   问题: 解释神经网络的工作原理
+INFO:ModelEvaluation:   回答: <think>
+嗯，用户让我解释神经网络的工作原理。首先，我需要确定用户的需求是什么。可能他们刚开始学习机器学习，或者对神经网络的基本概念不太清楚。我需要从基础开始，但也要确保内容准确。
+
+首先，神经...
+INFO:ModelEvaluation:   长度: 176 字符
+INFO:ModelEvaluation:
+🔸 测试 5:
+INFO:ModelEvaluation:   问题: Python中如何读取文件？
+INFO:ModelEvaluation:   回答: <think>
+嗯，用户问的是Python中如何读取文件。首先，我需要回忆一下Python中常见的文件读取方法。记得有open函数，然后用r模式打开文件，读取内容。可能还有不同的方式，比如读取全部内容...
+INFO:ModelEvaluation:   长度: 185 字符
+INFO:ModelEvaluation:📈 评估回答质量...
+INFO:ModelEvaluation:📊 平均质量分数: 8.80/10
+INFO:ModelEvaluation:🔍 与基础模型对比...
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.43it/s]
+INFO:ModelEvaluation:
+📊 对比: 解释机器学习的基本概念
+INFO:ModelEvaluation:   微调模型: <think>
+嗯，用户让我解释机器学习的基本概念。首先，我需要确定用户对机器学习了解多少。可能是一个刚开始学习的人，或者有基础但想巩固的人。不管怎样，我得从基...
+INFO:ModelEvaluation:   基础模型: <think>
+嗯，用户让我解释机器学习的基本概念。首先，我需要确定用户的需求是什么。可能是一个刚开始学习机器学习的新手，或者是一个有一定基础但想回顾的人。不管...
+INFO:ModelEvaluation:
+📊 对比: 写一个Python函数计算斐波那契数列
+INFO:ModelEvaluation:   微调模型: <think>
+好的，用户让我写一个Python函数来计算斐波那契数列。首先，我得想一下斐波那契数列是什么。斐波那契数列是每个数等于前两个数的和，对吧？比如0,...
+INFO:ModelEvaluation:   基础模型: <think>
+好的，我需要写一个Python函数来计算斐波那契数列。首先，我得回忆一下斐波那契数列的定义。斐波那契数列是每个数等于前两个数的和，对吧？比如，0...
+INFO:ModelEvaluation:
+📊 对比: 什么是深度学习？
+INFO:ModelEvaluation:   微调模型: <think>
+嗯，用户问的是“什么是深度学习？”，我需要先理解这个问题。深度学习是机器学习的一个分支，对吧？但用户可能对这个概念不太熟悉，所以得从基础讲起。
+...
+INFO:ModelEvaluation:   基础模型: <think>
+嗯，用户问的是“什么是深度学习？”，我需要先理解这个问题。深度学习是机器学习的一个子领域，对吧？不过我得确认一下，是不是和神经网络有关？可能用户...
+INFO:ModelEvaluation:🎉 评估完成！
+INFO:ModelEvaluation:📊 平均质量分数: 8.80/10
+INFO:ModelEvaluation:💾 结果已保存到 evaluation_results.json
